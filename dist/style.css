@@ -1,1 +1,27 @@
-body{background-color:#0ff}
+body {
+  background-color: #fff 227, 239, 216;
+}
+
+.tab__panel {
+  display: flex;
+  justify-content: space-between;
+}
+.tab__item {
+  width: 300px;
+  border: 2px solid #000;
+  padding: 20px;
+  background-color: pink;
+}
+.tab__item.active {
+  background-color: rgb(241, 153, 168);
+}
+.tab__page {
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  background-color: rgba(137, 43, 226, 0.178);
+  display: none;
+}
+.tab__page.active {
+  display: block;
+}

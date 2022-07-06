@@ -15,6 +15,6 @@ panel.addEventListener('click', function(event){
             pages[i].classList.remove('active', 'fade');
         }
         target.classList.add('active');
-        pages[target.dataset.open].classList.add('active');
+        pages[target.dataset.open].classList.add('active', 'show');
     }
 })
